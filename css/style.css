@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+
+body{
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size:16px;
+  padding-top:50px;
+}
+
+.topnav, .topnav .navbar-brand{
+  font-size:20px;
+}
+
+.topnav{box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.7);}
+.adjust{margin-top: -9px}
+.strip-top{margin-top: 0;}
+.text-bright{color:#e7e7e7;}
+.header-background {
+  background: url("../images/beach1.jpg") center center no-repeat fixed;
+  position: relative;
+  padding-top:15%;
+  padding-bottom:15%;
+}
+
+.header-background .container{
+  text-shadow: 3px 3px 4px #121212;
+  color:white;
+}
+
+.header-background h1 {font-size: 8em}
+
+.header-background .social-icons .fa-stack-1x {text-shadow:none;}
+
+.about-background, .port-background, .contact-background{
+  position: relative;
+  padding-top:65px;
+  padding-bottom:65px;
+}
+
+.port-background {
+  background: url("../images/beach2.jpg") center center no-repeat fixed;
+}
+
+.port-background h2 {
+  color:#fff; margin-bottom:1em; font-size: 3em;
+  text-shadow: 3px 3px 4px #121212;
+}
+
+footer {
+  padding: 20px 0;
+  background-color:#e7e7e7;
+}
